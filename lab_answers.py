@@ -51,3 +51,6 @@ print(data.head())
     # 5.1 In the terminal, run the command: git add .
     # 5.2 Then run: git commit -m "Your commit message here"
     # 5.3 Then run: git push origin main
+
+
+# Example following recipe: https://github.com/kenzkleczynski/DS3021---lab2
