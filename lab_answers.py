@@ -29,3 +29,25 @@ print(data.head())
     # It lists all the packages and third-party tools needed for the project. 
     # This is helpful for individual tracking, but it is also important for collaborating or
     # sharing the project so others can recreate the exact same environment to run the code
+
+# %% Recipe
+
+# 1. Creating Repo
+    # 1.1 Fork someone's or create a new repository
+    # 1.2 Open the repository in Codespaces
+        # Within the github repo click on the green "Code" button and select Codepaces
+        # Then click on the "Create new codespace" button
+        # Then click three dots and click "Open in Visual Studio Code"
+# 2. Create Virtual Environment
+    # 2.1 In the terminal, run the command: python3 -m venv .venv
+    # 2.2 Activate the virtual environment: source .venv/bin/activate
+# 3 Install the packages
+    # 3.1  Install what you need for your project using pip install <package-name> in the terminal
+# 4. Create the requirements.txt file
+    # 4.1 In the terminal, run the command: pip freeze > requirements.txt 
+         # This can be used to create the file the first time you run it, 
+         # but should also be run every time you add a new package to keep the file up to date
+# 5. Commit and Push your changes to the repository
+    # 5.1 In the terminal, run the command: git add .
+    # 5.2 Then run: git commit -m "Your commit message here"
+    # 5.3 Then run: git push origin main
